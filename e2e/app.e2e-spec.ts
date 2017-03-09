@@ -1,10 +1,10 @@
-import { SAppPage } from './app.po';
+import { MeanAppPage } from './app.po';
 
-describe('s-app App', function() {
-  let page: SAppPage;
+describe('mean-app App', function() {
+  let page: MeanAppPage;
 
   beforeEach(() => {
-    page = new SAppPage();
+    page = new MeanAppPage();
   });
 
   it('should display message saying app works', () => {

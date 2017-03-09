@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class SAppPage {
+export class MeanAppPage {
   navigateTo() {
     return browser.get('/');
   }
